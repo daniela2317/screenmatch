@@ -1,4 +1,4 @@
-package com.aluracursos.screenmatch.principal;
+package com.aluracursos.screenmatch.main;
 
 import com.aluracursos.screenmatch.calculations.FilterRecommendations;
 import com.aluracursos.screenmatch.calculations.TimeCalculator;
@@ -8,7 +8,7 @@ import com.aluracursos.screenmatch.models.Serie;
 
 import java.util.ArrayList;
 
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie("Suspiria", 1977);
         myMovie.setDuration(130);

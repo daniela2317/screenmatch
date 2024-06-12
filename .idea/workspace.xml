@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8762af-91b0-49bb-a1fa-498da1de1d81" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalLists.java" afterDir="false" />
+    <list default="true" id="ad8762af-91b0-49bb-a1fa-498da1de1d81" name="Changes" comment="adding functionilities">
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/main/MainWithSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/models/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/principal/PrincipalLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/screenmatch/main/MainLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainWithSearch.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.PrincipalLists.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,6 +50,26 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.aluracursos.screenmatch.principal" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainWithSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.screenmatch.main.MainWithSearch" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.screenmatch.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainWithSearch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,15 +88,62 @@
       <option name="project" value="LOCAL" />
       <updated>1715193234965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding functionilities">
+      <option name="closed" value="true" />
+      <created>1718129806546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129806546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -86,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="adding functionilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding functionilities" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.aluracursos.screenmatch.principal;
+package com.aluracursos.screenmatch.main;
 
 import com.aluracursos.screenmatch.models.Movie;
 import com.aluracursos.screenmatch.models.Serie;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class PrincipalLists {
+public class MainLists {
     public static void main(String[] args) {
 
         Movie myMovie = new Movie("Suspiria", 1977);
